@@ -3,6 +3,9 @@
 
 # JS-07 - Fetch & Web Storage APIs
 
+https://replit.com/@SupTarr/Fetch-Exercise#index.html
+https://fetch-exercise.suptarr.repl.co/
+
  <br/>
  <br/>
 
