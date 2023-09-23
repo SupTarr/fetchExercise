@@ -14,7 +14,7 @@
     "data": [...],
 }    
  ```
- 
+
 ## Part 1: Using the Axios
 
 1. Try sending `GET` request to `https://reqres.in/api/data` and observe the response.
