@@ -2,7 +2,7 @@ const itemsContainer = document.getElementById("list-items");
 
 function addItem(item) {
   const card = document.createElement("div");
-  card.className = "card";
+  card.className = "card col-lg-6 col-md-12 mx-auto";
   card.style.marginBottom = "16px";
 
   card.innerHTML = `
