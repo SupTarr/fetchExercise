@@ -33,9 +33,6 @@ async function fetchColorsList() {
   itemsContainer.innerHTML = "";
   for (let i = 0; i < allColors.length; i++) {
     addItem(allColors[i]);
-  }
-
-  for (let i = 0; i < allColors.length; i++) {
     window.localStorage.setItem(allColors[i].name, allColors[i].color);
   }
 }
