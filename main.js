@@ -18,7 +18,10 @@ function addItem(item) {
 }
 
 async function fetchColorsList() {
-  const response = await axios.get("https://reqres.in/api/data");
+  const response = await axios.get("https://reqres.in/api/data", {
+    headers: { "x-api-key": "reqres-free-v1" },
+  });
+  
   const { data } = response;
   let allColors = data.data;
 
