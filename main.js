@@ -21,12 +21,13 @@ async function fetchColorsList() {
   const response = await axios.get("https://reqres.in/api/data", {
     headers: { "x-api-key": "reqres-free-v1" },
   });
-  
+
   const { data } = response;
   let allColors = data.data;
 
   for (let page = data.page + 1; page <= data.total_pages; page++) {
     const response = await axios.get("https://reqres.in/api/data", {
+      headers: { "x-api-key": "reqres-free-v1" },
       params: { page: page },
     });
     const { data } = response;
