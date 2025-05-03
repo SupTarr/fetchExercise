@@ -84,7 +84,7 @@ async function fetchColorsList() {
       await fetchAndCacheColors();
     }
   } else {
-        await fetchAndCacheColors();
+    await fetchAndCacheColors();
   }
 }
 
